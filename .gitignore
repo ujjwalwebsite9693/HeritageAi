@@ -1,0 +1,21 @@
+# Environment configuration
+.env
+
+# Storage directories
+storage/originals/*
+!storage/originals/.gitkeep
+storage/derivatives/*
+!storage/derivatives/.gitkeep
+
+# Composer dependencies
+vendor/
+
+# Logs & temp files
+*.log
+.cache/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
